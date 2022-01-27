@@ -17,8 +17,8 @@ minetest.register_chatcommand("alo", {
 
 minetest.register_on_joinplayer(function(player)
 	player:set_physics_override({
-    gravity = 1.75,
-    jump = 1.4,
+    gravity = 1.5,
+    jump = 1.2,
     speed = 1.5,
   })
 
